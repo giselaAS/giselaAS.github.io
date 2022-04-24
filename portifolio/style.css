@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.titulo {
+    padding-left: 15px;
+}
+
+.navegacao {
+    display: flex;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li {
+    list-style: none;
+}
