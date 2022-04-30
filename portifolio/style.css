@@ -19,49 +19,75 @@
     border-radius: 20px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #121212;
-    padding: 15px;
+header{
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-}
-
-.titulo {
-    margin-left: 9%;
-    font-size: 15px;
-    margin-top: 5px;
-}
-
-.navegacao {
     display: flex;
-    text-align: justify;
-    margin-right: 90px;
-}
-
-.item {
-    display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 11px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-a {
+    font-size: 1.5rem;
+    padding: 1% 9%;
+  }
+  
+  nav a{
     text-decoration: none;
     font-size: 20px;
-}
-
-nav ul li {
+  }
+  
+  nav ul li{
+    display: inline-block;
     list-style: none;
+    margin-right: 1rem;
+  }
+
+  .menu-mobile{
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .mostra-menu{
+    display: block;
+  }
+
+
+  @media (max-width: 550px) {
+    header{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    nav{
+      width: 100%;
+    }
+    nav ul{
+      display: none;
+      padding-left: 0;
+    }
+    nav ul li{
+      display: block;
+      padding: 1rem 0;
+      width: 100%;
+    }
+    nav ul li:last-child{
+      border: none;
+    }
+    .menu-mobile{
+      display: block;
+    }
+    .menu-mobile img{
+      width: 1.5rem;
+    }
+  }
+
+.titulo {
+    margin-top: 5px;
+    font-size: 1rem;
 }
 
 .introducao {
-    margin-top: 17%;
+    margin-top: 240px;
     margin-left: 9%;
 }
 
@@ -86,6 +112,10 @@ nav ul li {
     background-color: #6C63FF;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .sobre, h3, p {
