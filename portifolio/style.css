@@ -106,8 +106,9 @@ header{
     font-size: 40px;
     letter-spacing: 2px;
     color: #808080;
-    margin-bottom: 4%;
+    margin-bottom: 50px;
 }
+
 .button {
     background-color: #6C63FF;
     padding: 10px 40px;
@@ -119,7 +120,7 @@ a {
 }
 
 .sobre, h3, p {
-    margin-left: 10%;
+    margin-left: 9%;
     margin-top: 500px;
     margin-right: 9%;
     background-color: #1b1b1b;
@@ -134,15 +135,36 @@ h3 {
 p {
     margin-top: 20px;
     margin-bottom: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
 }
-
-footer {
+/*colocar o contato no footer - github e instagram*/
+footer, .contatos, .nome, .icons {
     bottom: 0;
     width: 100%;
     text-align: center;
     background-color: #1b1b1b;
-    margin-top: 10px;
-    padding: 20px;
+    padding: 8px;
+}
+
+.contatos {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  background-color: #1b1b1b;
+  width: 80px;
+  height: 80px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #6C63FF;
+  border-radius: 10px;
+}
+
+.nome {
+  margin-bottom: 10px;
 }
