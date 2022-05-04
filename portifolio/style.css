@@ -81,7 +81,20 @@ header{
     .menu-mobile img{
       width: 1.5rem;
     }
+    .conteudo-introducao {
+      flex-wrap: wrap;
+    }
   }
+
+.conteudo-introducao {
+  display: flex;
+}
+
+.imagem-portifolio {
+  margin-left: 9%;
+  margin-top: 220px;
+  margin-right: 9%;
+}
 
 .titulo {
     margin-top: 5px;
