@@ -123,10 +123,18 @@ a {
 
 .sobre, h3, p {
     margin-left: 9%;
-    margin-top: 500px;
+    margin-top: 300px;
     margin-right: 9%;
     background-color: #1b1b1b;
     border-radius: 10px;
+}
+
+.projetos, h3, p {
+  margin-left: 9%;
+  margin-top: 100px;
+  margin-right: 9%;
+  background-color: #1b1b1b;
+  border-radius: 10px;
 }
 
 h3 {
@@ -140,7 +148,7 @@ p {
     padding-bottom: 30px;
 
 }
-/*colocar o contato no footer - github e instagram*/
+
 footer, .contatos, .nome, .icons {
     bottom: 0;
     width: 100%;
